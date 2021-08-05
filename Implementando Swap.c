@@ -45,7 +45,7 @@ int main(void)
 {
     int vetor[] = {1, 3 , 2, 5, 4};
     int entrada;
-    scanf("%d", &entrada);
+    scanf("%d", &entrada); //usuario escolhe a ordem, 0 decrescente e 1 crescente, outros números nada faz
     swap(vetor, entrada);
     for (int i = 0; i < (sizeof(vetor)/4); i++)
     {
