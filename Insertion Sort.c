@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-	int array[101] = {3, 2, 4, 9, 6, 1}, entrada, tamanho, troca, j;
+	int array[101] = {3, 2, 4, 9, 6, 1}, entrada, tamanho, troca;
 	while(1)
 	{
 		printf("Quer acrester um numero ao vetor? para não digite 0\n");
